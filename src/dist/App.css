@@ -1,0 +1,37 @@
+html {
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+.boxes {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.boxes .box {
+  width: 350px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+.boxes .img {
+  width: 90%;
+}
